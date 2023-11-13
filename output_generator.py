@@ -1,4 +1,4 @@
-from .matchTree import MatchTree
+from matchTree import MatchTree
 import re
 
 

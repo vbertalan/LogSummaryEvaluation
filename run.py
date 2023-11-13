@@ -1,17 +1,17 @@
-from .evaluation import registry as eval_registry
-from .openie import registry as openie_registry
-from .rules import registry as rules_registry
-from .preprocess import registry as preprocess_registry
-from .utils import (
+from evaluation import registry as eval_registry
+from openie import registry as openie_registry
+from rules import registry as rules_registry
+from preprocess import registry as preprocess_registry
+from utils import (
     file_handling,
     print_params,
     save_results,
     save_global_output_triples,
     save_log_triples,
 )
-from .init_params import init_main_args, parse_main_args
-from .utils import combine_extractions, remove_varx
-from .output_generator import OutputGenerator
+from init_params import init_main_args, parse_main_args
+from utils import combine_extractions, remove_varx
+from output_generator import OutputGenerator
 import os
 
 
